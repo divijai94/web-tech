@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    color: white;
+    background: purple;
+}
+.logo{
+    font-family: cursive;
+    font-size: large;
+    font-weight: 300;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+
+}
+.home,.contact,.Course,.about{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0,10px;
+    cursor: pointer;
+}
